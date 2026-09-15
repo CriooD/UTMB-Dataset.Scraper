@@ -89,3 +89,5 @@ Sample of the final dataset (`utmb_puerto_vallarta_2024.csv`):
 | 3    | 18:57:46 | Steven DOLL           | United States of America   | Men    | 20-34         | Finisher | 100M     |
 
 <br />
+
+Data sourced from utmb.world's public UTMB Index pages, for educational/portfolio purposes only — not for redistribution or commercial use.
