@@ -59,3 +59,33 @@ Finishers have a rank number and a time (`HH:MM:SS`) right before their name. Ru
 - <b>Output</b>
 
 Every parsed row is tagged with its race category, distance, elevation gain and year, then all six distances are combined into a single `pandas` DataFrame and exported to `utmb_puerto_vallarta_2024.csv`.
+
+<h2>Results</h2>
+
+The scraper collected data for <b>1,425 runners</b> across all six distances, combining finishers and DNFs into a single dataset:
+
+<br />
+
+| Distance | Finishers | DNF | Total | 
+|----------|-----------|-----|-------|
+| 100M     | 76        | 28  | 104   | 
+| 100K     | 154       | 28  | 182   | 
+| 50K      | 344       | 38  | 382   |
+| 33K      | 245       | 29  | 274   | 
+| 20K      | 307       | 13  | 320   |
+| 10K      | 153       | 10  | 163   | 
+| **Total**| **1,279** | **146** | **1,425** | 
+
+<br />
+
+Sample of the final dataset (`utmb_puerto_vallarta_2024.csv`):
+
+<br />
+
+| rank | time     | name                  | nationality               | gender | age_category | status   | category |
+|------|----------|-----------------------|----------------------------|--------|---------------|----------|----------|
+| 1    | 16:20:20 | Remigio HUAMAN QUISPE | Peru                       | Men    | 40-44         | Finisher | 100M     |
+| 2    | 17:20:21 | Samuel COLLINS        | United States of America   | Men    | 20-34         | Finisher | 100M     |
+| 3    | 18:57:46 | Steven DOLL           | United States of America   | Men    | 20-34         | Finisher | 100M     |
+
+<br />
